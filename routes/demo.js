@@ -12,4 +12,13 @@ router.get('/', function (req, res, next) {
     res.send('Router is come here!');
 });
 
+app.post('/',(req, res,next) => {
+	//console.log('post called!');
+	//var intentName = req.body.queryResult.intent.displayName;
+	
+	console.log('ankur');
+	console.log(intentName);
+	console.log(req.body);
+});
+
 module.exports = router;
