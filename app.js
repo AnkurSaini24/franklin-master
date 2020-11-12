@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 var Port = process.env.PORT || 8100;
 
+<<<<<<< HEAD:app.js.js
 
 //app.use('/', indexRouter);
 //app.use('/ideas', ideasRouter);
@@ -47,6 +48,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+=======
+>>>>>>> 0b4eb54046720a58c0788720b8a98becd96222d3:index.js
 app.listen(Port,()=>{
   console.log(`app listening on port ${Port}`);
 });
