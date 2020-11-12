@@ -1,24 +1,22 @@
+  
 {
   "name": "slackbot",
   "version": "0.0.0",
-  "main": "app.js",
+  "engines": { 
+      "node": "12.14.0" 
+   },
+  "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "body-parser": "^1.18.3",
+     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
-    "curl-request": "^1.1.1",
-    "debug": "~2.6.9",
+     "debug": "~2.6.9",
     "express": "~4.16.0",
     "googleapis": "^39.2.0",
     "http-errors": "~1.6.2",
     "morgan": "^1.9.1",
-    "mysql": "^2.17.1",
-    "pug": "^2.0.3"  
-  },
-  "devDependencies": {
-    "axios": "^0.21.0"
+    "pug": "^2.0.3"
   }
 }
