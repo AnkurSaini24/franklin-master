@@ -5,6 +5,7 @@
       "node": "12.14.0" 
    },
   "private": true,
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
