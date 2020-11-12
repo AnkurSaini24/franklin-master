@@ -1,0 +1,27 @@
+{
+  "name": "slackbot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google-cloud/tasks": "^1.4.0",
+    "@slack/bolt": "^1.2.0",
+    "@slack/interactive-messages": "^1.3.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "curl-request": "^1.1.1",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "googleapis": "^39.2.0",
+    "http-errors": "~1.6.2",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "smartsheet": "^2.77.0",
+    "yargs": "^14.0.0"
+  }
+}
