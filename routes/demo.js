@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
     res.send('Router is come here!');
 });
 
-app.post('/',(req, res,next) => {
+router.post('/',(req, res,next) => {
 	//console.log('post called!');
 	//var intentName = req.body.queryResult.intent.displayName;
 	
