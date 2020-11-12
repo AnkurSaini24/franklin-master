@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-	"dotenv": "^8.2.0",
+    "dotenv": "^8.2.0",
     "@google-cloud/tasks": "^1.4.0",
     "@slack/bolt": "^1.2.0",
     "@slack/interactive-messages": "^1.3.0",
@@ -24,5 +24,18 @@
     "request-promise": "^4.2.4",
     "smartsheet": "^2.77.0",
     "yargs": "^14.0.0"
-  }
+  },
+  "description": "Franklin is a chatbot written in Node.JS that leverages DialogFlow and Slack to create a chatbot.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkurSaini24/franklin-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkurSaini24/franklin-master/issues"
+  },
+  "homepage": "https://github.com/AnkurSaini24/franklin-master#readme"
 }
