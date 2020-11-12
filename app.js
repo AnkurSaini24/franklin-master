@@ -4,14 +4,16 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-/*
+
 var indexRouter = require('./routes/index');
 var ideasRouter = require('./routes/ideas');
 var gcpTasksRouter = require('./routes/gcpTasks');
-*/
+
 var demoRouter = require('./routes/demo');
 
 var app = express();
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var Port = process.env.PORT || 8100;
 
 
-//app.use('/', indexRouter);
+app.use('/', indexRouter);
 //app.use('/ideas', ideasRouter);
 //app.use('/gcptasks', gcpTasksRouter);
 app.use('/demo',demoRouter);
